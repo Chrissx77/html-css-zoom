@@ -14,15 +14,31 @@ body {
 
 /* HEADER STYLE */
 nav {
-    height: 100px;
+    height: 50px;
     background-color: black;
     z-index: 500;
+    color: white;
+    display: flex;
+    font-size: 17px;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+#view{
+    margin-right: 10px;
+}
+
+.button-nav{
+    height: 20px;
+    padding: 5px 5px;
+    background-color: dimgray;
+    border-radius: 5px;
 }
 
 /* MAIN STYLE */
 
 main {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 140px);
     overflow-y: scroll;
     background-color: black;
 }
@@ -60,7 +76,7 @@ main {
 
 /* FOOTER STYLE */
 .icon-foot {
-    height: 100px;
-    background-color: dimgray;
+    height: 70px;
+    background-color: rgb(65, 65, 65);
     z-index: 500;
 }
