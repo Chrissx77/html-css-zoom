@@ -30,7 +30,6 @@ main {
 .item {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
     gap: 10px;
 }
 
@@ -39,6 +38,7 @@ main {
     background-size: cover;
     background-position: center;
     width: calc(100vw / 7);
+    height: 200px;
     position: relative;
 }
 
