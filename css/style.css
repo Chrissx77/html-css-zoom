@@ -75,8 +75,49 @@ main {
 
 
 /* FOOTER STYLE */
+footer{
+    background-color: rgb(65, 65, 65);
+
+}
+
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+}
+
 .icon-foot {
     height: 70px;
-    background-color: rgb(65, 65, 65);
+
     z-index: 500;
+    display: flex;
+    align-items: center;
+    color: white;
 }
+
+#setting{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.mute{
+    font-size: 13px;
+}
+
+.arrow{
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.fix{
+    text-align: center;
+}
+
+#end-call{
+    color: red;
+    background-color: dimgray;
+    height: 30px;
+    padding: 20px 10px;
+    font-size: 17px;
+}
+
+
