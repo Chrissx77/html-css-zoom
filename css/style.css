@@ -27,6 +27,21 @@ main{
     background-color: black;
 }
 
+.item{
+    display: flex;
+    min-height: 100px;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.image-cam{
+    background-color: white;
+}
+
+.info-cam{
+    color:black
+}
+
 .container{
     width: 90%;
     margin: 0 auto;
