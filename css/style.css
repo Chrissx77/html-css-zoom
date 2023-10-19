@@ -13,41 +13,52 @@ body {
 }
 
 /* HEADER STYLE */
-nav{
-    height:100px;
+nav {
+    height: 100px;
     background-color: black;
     z-index: 500;
 }
 
 /* MAIN STYLE */
 
-main{
+main {
     height: calc(100vh - 200px);
     overflow-y: scroll;
     background-color: black;
 }
 
-.item{
+.item {
     display: flex;
-    min-height: 100px;
+    flex-wrap: wrap;
+    min-height: 150px;
     flex-grow: 1;
     gap: 10px;
 }
 
-.image-cam{
-    background-color: white;
+.image-cam {
+    background-image: url(../image/glowing-lines-human-heart-3d-shape-dark-background-generative-ai_191095-1435.avif);
+    background-size: cover;
+    background-position: center;
+    flex-basis: 15%;
+    position: relative;
 }
 
-.info-cam{
-    color:black
+.info-cam {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    padding: 3px;
+    background-color: rgba(30,30,30,0.9);
+
 }
 
-.container{
+.container {
     width: 90%;
     margin: 0 auto;
 }
 
-.cam{
+.cam {
     display: flex;
     flex-wrap: wrap;
 }
@@ -58,9 +69,8 @@ main{
 
 
 /* FOOTER STYLE */
-.icon-foot{
-    height:100px;
+.icon-foot {
+    height: 100px;
     background-color: dimgray;
     z-index: 500;
 }
-
