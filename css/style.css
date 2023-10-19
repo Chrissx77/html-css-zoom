@@ -1,0 +1,51 @@
+/* RESET STYLE */
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+
+:root {
+    font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLE */
+nav{
+    height:100px;
+    background-color: black;
+    z-index: 500;
+}
+
+/* MAIN STYLE */
+
+main{
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+    background-color: black;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cam{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* FOOTER STYLE */
+.icon-foot{
+    height:100px;
+    background-color: dimgray;
+    z-index: 500;
+}
+
