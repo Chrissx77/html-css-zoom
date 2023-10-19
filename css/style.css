@@ -30,8 +30,7 @@ main {
 .item {
     display: flex;
     flex-wrap: wrap;
-    min-height: 150px;
-    flex-grow: 1;
+    height: 300px;
     gap: 10px;
 }
 
@@ -39,7 +38,7 @@ main {
     background-image: url(../image/glowing-lines-human-heart-3d-shape-dark-background-generative-ai_191095-1435.avif);
     background-size: cover;
     background-position: center;
-    flex-basis: 15%;
+    width: calc(100vw / 7);
     position: relative;
 }
 
@@ -57,15 +56,6 @@ main {
     width: 90%;
     margin: 0 auto;
 }
-
-.cam {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
 
 
 /* FOOTER STYLE */
