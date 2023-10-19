@@ -105,7 +105,7 @@ footer{
 
 .arrow{
     padding-left: 8px;
-    font-size: 15px;
+    font-size: 15px;s
 }
 
 .fix{
@@ -113,7 +113,7 @@ footer{
 }
 
 #end-call{
-    color: red;
+    color: rgb(146, 1, 1);
     background-color: dimgray;
     height: 30px;
     padding: 20px 10px;
